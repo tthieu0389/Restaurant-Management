@@ -1,15 +1,46 @@
-# CT313H: WEB TECHNOLOGIES AND SERVICES
+# Restaurant Management System
 
-## Project Name: Restaurant Management
+A full-stack restaurant management system.
 
-Semester 3, Academic year: 2024-2025
+## Role
+- **Backend API** (Node.js, Express.js, PostgreSQL) — developed by me
+- **Frontend SPA** (Vue.js) — developed by teammate
 
-**Student ID 1**: B2205980
+## Tech Stack
 
-**Student Name 1**: Trần Trung Hiếu
+### Backend
+- **Runtime:** Node.js, Express.js
+- **Database:** PostgreSQL, Knex.js (query builder & migration)
+- **Authentication:** JWT, bcrypt
+- **Validation:** Zod
+- **File Upload:** Multer
+- **Documentation:** Swagger
+- **Security:** Rate limiting, CORS
 
-**Student ID 2**: B2205981
+### Frontend
+- Vue.js, Vite, Tailwind CSS
 
-**Student Name 2**: Hồ Ngọc Hiển
+## Features
 
-**Class Number**: M01
+- RESTful API with 30+ endpoints
+- Authentication & role-based access control
+- Menu, order, inventory, reservation management
+- Recipe system (dish–ingredient linking)
+- Pagination, filtering
+- API documentation via Swagger
+
+## Getting Started
+
+### Backend
+```bash
+cd backend-api
+npm install
+npm run dev
+```
+
+### Frontend
+```bash
+cd frontend-spa
+npm install
+npm run dev
+```
